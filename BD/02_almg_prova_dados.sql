@@ -19,7 +19,7 @@ insert into produto values (8, 'Livro de Regras', 30.0);
 insert into cliente values (1, 'Jose da Silva', '11111111111', '1111-1111', 1);
 insert into cliente values (2, 'Maria da Silva', '11111111112', '2222-2222', 1);
 insert into cliente values (3, 'Joao Oliveira', '11111111113', '3333-3333', 2);
-insert into cliente values (4, 'Beatriz Martis', '1111111114', '4444-4444', 4);
+insert into cliente values (4, 'Beatriz Martins', '1111111114', '4444-4444', 4);
 insert into cliente values (5, 'Eduardo Oliveira', '1111111115', '5555-5555', null);
 
 -- compras 
