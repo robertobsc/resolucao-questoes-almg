@@ -1,0 +1,13 @@
+Algoritmo REPETICAO
+Var
+	cont, total : inteiro
+Início
+	cont <- 15;
+	total <- 0;
+	Enquanto cont > total faça
+	Início
+		Mostrar(“CONT=”,cont)
+		total <- total + 1
+		cont <- cont - 2
+	Fim
+Fim

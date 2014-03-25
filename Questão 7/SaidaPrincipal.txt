@@ -1,0 +1,11 @@
+Estacoes: 3
+Outono
+Inverno
+Primavera
+Estacoes: 4
+Outono
+Inverno
+Primavera
+Verao
+Estacoes: 1
+Verao
