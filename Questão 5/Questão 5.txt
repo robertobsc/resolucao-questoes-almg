@@ -1,0 +1,18 @@
+Questão 6
+=========
+
+a) Considere um arquivo cujos registros possuem uma chave única, utilizada para localização de registros no arquivo. Para se obter um determinado registro a partir de sua chave, percorrendo sequencialmente o arquivo com n registros na ordem em que os registros aparecem, determine a função de complexidade f para os se- guintes casos:
+
+- Melhor caso: 	f(n) = 1
+- Pior caso: 	f(n) = n
+- Caso médio:	f(n) = (n + 1) / 2
+
+
+b) Informe a complexidade assintótica O( f ) correspondente à sua respectiva classe algorítmica de problema:
+
+- Complexidade constante: 		f(n) = O(1)
+- Complexidade logarítmica:		f(n) = O(log n)
+- Complexidade linear:			f(n) = O(n)
+- Complexidade quadrática: 		f(n) = O(n ^ 2)
+- Complexidade cúbica:			f(n) = O(n ^ 3)
+- Complexidade exponencial:		f(n) = O(c ^ n), c > 1
