@@ -1,0 +1,16 @@
+Algumas coisas devem ser explicadas no diagarama.
+
+Talvez a mais controversa seja a existência do ator "Tempo".
+
+Ele existe para permitir que os casos de uso "Gerar Contas", "Desativar Conta", "Suspender Conta" e "Reativar Conta" tenham seu efeito automático. No caso o ator Tempo será o trigger desses casos de uso, será o fator que vai desencadear a execução dos casos de uso. Pois segundo o que eu aprendi o próprio sistema não poderá ser o ator do caso de uso, tem que ser alguém que irá interagir com o mesmo.
+
+O ator RH é uma generalização do ator Funcionário. O funcionário apenas consulta o endereço.
+
+Toda a ação do RH tem que ter a participação do ator "Sistema de Correio Eletrônico", que é um sistema a parte do nosso sistema em questão, que é o "sistema de email na nuvem". Portanto quando o RH Bloqueia conta ou altera endereço, o nosso sistema tem que envolver o sistema de correio eletrônico para que as informações sejam efetivamente realizadas.
+
+
+A diferença da diagrama 1 para o diagrama 2 é apenas a criação de um caso de uso generalizado, chamado "Operar Contas Automaticamente". Se vocês pararem para analisar, todos os diagramas entre o tempo e o sist. de correio eletrônico tem coisas em comum. Na verdade a grande diferença entre eles é apenas a mudança do estado da conta do usuário. Portanto é comum em UML criar um caso de uso que fique com tudo em comum e os outros casos de uso tem apenas o que diferencia um do outro.
+
+Acredito que todos façam <<extends>> porque nenhum caso de uso é obrigatóriamente executado. Até mesmo o "Gerar Contas", só vai ser executado se houver algum funcionário novo. Isso é o que eu entendi....
+
+Acredito que é isso pessoal.
